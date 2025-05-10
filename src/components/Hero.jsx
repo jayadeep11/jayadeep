@@ -6,7 +6,7 @@ import Music from "./Music.jsx";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col min-h-screen p-6 sm:px-16 bg-black mb-52">
+    <div className="flex flex-col min-h-screen p-10 sm:px-16 bg-black">
       <Navbar />
 
       <div className="flex-grow flex flex-col justify-center gap-16 md:gap-24 sm:px-8 md:px-20 lg:px-32">
@@ -34,11 +34,11 @@ const Hero = () => {
           </li>
           <li className="flex items-center gap-1">
             <img src={GH} className="w-5 h-5" alt="GitHub" />
-            <a href="#">GH</a>
+            <a href="https://github.com/jayadeep11">GH</a>
           </li>
           <li className="flex items-center gap-1">
             <img src={LI} className="w-5 h-5" alt="LinkedIn" />
-            <a href="#">IN</a>
+            <a href="https://www.linkedin.com/in/jayadeep11/">IN</a>
           </li>
         </ul>
       </div>
