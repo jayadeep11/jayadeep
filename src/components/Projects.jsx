@@ -1,10 +1,10 @@
 export default function Projects() {
   return (
     <div className="mt-32">
-      <div className="p-10 sm:px-16">
-        <div className="sm:px-8 md:px-20 lg:px-32">
-          <h1 className="text-2xl font-bold">
-            <span>Currently working on </span>
+      <div className="md:px-16">
+        <div className="px-10 lg:px-60">
+          <h1 className="text-4xl font-primary font-bold">
+            <span className="bg-gradient-to-r from-sky-200 via-white to-pink-300 bg-clip-text text-transparent">Currently working on </span>
             <span>💼</span>
           </h1>
           <p className="mt-10">

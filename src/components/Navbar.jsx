@@ -11,8 +11,8 @@ const Navbar = () => {
     setClicked(prev => !prev);
   };
   return (
-    <div className=" ">
-      <nav className="bg-[#15161C] border-2 border-[#1b1c26] rounded-3xl p-5  sm:max-w-2xl  flex justify-between items-center  mx-auto">
+    <div className="px-32">
+      <nav className="bg-[#15161C] border-2 border-[#1b1c26] rounded-2xl p-5  sm:max-w-2xl  flex justify-between items-center  mx-auto">
         <div className="text-[#d1d1d1] text-2xl leading-none ">
           <img src={logo} alt="logo" className="w-20 " />
         </div>

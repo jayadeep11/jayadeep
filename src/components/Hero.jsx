@@ -6,28 +6,33 @@ import Music from "./Music.jsx";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col min-h-screen p-10 sm:px-16 bg-black">
+    <div className="flex flex-col min-h-screen justify-around bg-black">
       <Navbar />
 
-      <div className="flex-grow flex flex-col justify-center gap-16 md:gap-24 sm:px-8 md:px-20 lg:px-32">
-        <div className="font-poppins font-bold text-white text-3xl sm:text-5xl md:text-7xl flex flex-col gap-3">
-          <p>turning ideas into</p>
-          <p>real life products</p>
-          <p>is my calling.</p>
-        </div>
+      <div className="md:px-16">
+        <div className="flex-grow flex flex-col justify-center gap-16 md:gap-24 px-10 lg:px-60">
+          <div className="font-primary  text-white text-3xl sm:text-5xl md:text-6xl flex flex-col gap-3">
+            <p>turning ideas into</p>
+            <p>real life products</p>
+            <p>is my calling.</p>
+          </div>
 
-        <div>
-          <button type="button" className="text-left text-lg sm:text-xl md:text-2xl text-white">
-            About me
-          </button>
-          <div className="w-16 sm:w-20 h-[1px] bg-neutral-400 mt-1"></div>
+          <div>
+            <button
+              type="button"
+              className="text-left text-lg sm:text-xl md:text-2xl text-white font-secondary"
+            >
+              About me
+            </button>
+            <div className="w-16 sm:w-20 h-[1px] bg-neutral-400 mt-1"></div>
+          </div>
         </div>
       </div>
 
-      <div className="mt-16 flex justify-between items-end">
+      <div className="mt-16 flex justify-between items-center px-10">
         <Music />
 
-        <ul className="flex gap-5 text-sm font-semibold text-white">
+        <ul className="flex gap-5 text-sm font-ter  text-white">
           <li className="flex items-center gap-1">
             <img src={x} className="w-5 h-5" alt="Twitter" />
             <a href="#">TW</a>
@@ -47,4 +52,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
