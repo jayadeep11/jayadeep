@@ -13,18 +13,18 @@ const Hero = () => {
         <div className="flex-grow flex flex-col justify-center gap-16 md:gap-24 px-10 lg:px-60">
           <div className="font-primary  text-white text-3xl sm:text-5xl md:text-6xl flex flex-col gap-3">
             <p>turning ideas into</p>
-            <p>real life products</p>
+            <p>real life <span className="bg-gradient-to-r from-sky-200 via-white to-pink-300 bg-clip-text text-transparent">Products</span></p>
             <p>is my calling.</p>
           </div>
 
           <div>
             <button
               type="button"
-              className="text-left text-lg sm:text-xl md:text-2xl text-white font-secondary"
+              className="text-left text-lg sm:text-xl text-neutral-200 font-secondary"
             >
               About me
             </button>
-            <div className="w-16 sm:w-20 h-[1px] bg-neutral-400 mt-1"></div>
+            <div className="w-16 sm:w-20 h-[1px] bg-neutral-400"></div>
           </div>
         </div>
       </div>

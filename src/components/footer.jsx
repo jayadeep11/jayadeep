@@ -3,7 +3,7 @@ export default function Footer() {
     <div className="">
       <div className=" p-10 sm:px-16">
         <div className="sm:px-8 md:px-20 lg:px-60">
-          <h1 className="font-primary text-5xl font-bold ">
+          <h1 className="font-primary text-3xl sm:text-4xl font-bold ">
             <span className="bg-gradient-to-r from-sky-200 via-white to-pink-300 bg-clip-text text-transparent">
               Don't be a stranger!
             </span>{" "}

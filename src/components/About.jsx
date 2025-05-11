@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="">
+    <div className="mt-10 sm:mt-32">
       <div className="sm:px-16">
         <div className="px-10 lg:px-60">
           <p className="text-md">
