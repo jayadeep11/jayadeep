@@ -30,7 +30,7 @@ export default function Footer() {
 
       <div className="w-full border border-neutral-500 border-[0.5px] sm:mt-10 "></div>
 
-      <div className="p-10">
+      <div className="p-5 sm:p-10">
         <h1 className="font-bold">Jayadeep.</h1>
       </div>
     </div>
