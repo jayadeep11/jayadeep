@@ -1,10 +1,12 @@
 import Navbar from "./Navbar";
+import { useNavigate } from "react-router-dom";
 import x from "/social-icons/x.png";
 import GH from "/social-icons/GH.png";
 import LI from "/social-icons/LI.png";
 import Music from "./Music.jsx";
 
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex flex-col min-h-screen justify-around bg-black">
       <Navbar />
@@ -13,7 +15,12 @@ const Hero = () => {
         <div className="flex-grow flex flex-col justify-center gap-16 md:gap-24 px-10 lg:px-60">
           <div className="font-primary  text-white text-3xl sm:text-5xl md:text-6xl flex flex-col gap-3">
             <p>turning ideas into</p>
-            <p>real life <span className="bg-gradient-to-r from-sky-200 via-white to-pink-300 bg-clip-text text-transparent">Products</span></p>
+            <p>
+              real life{" "}
+              <span className="bg-gradient-to-r from-sky-200 via-white to-pink-300 bg-clip-text text-transparent">
+                Products
+              </span>
+            </p>
             <p>is my calling.</p>
           </div>
 
@@ -21,7 +28,7 @@ const Hero = () => {
             <button
               type="button"
               className="text-left text-lg sm:text-xl text-neutral-200 font-secondary"
-    onClick= {() => window.location.href = "/about"}
+              onClick={() => navigate("/about")}
             >
               About me
             </button>
