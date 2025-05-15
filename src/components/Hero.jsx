@@ -21,10 +21,11 @@ const Hero = () => {
             <button
               type="button"
               className="text-left text-lg sm:text-xl text-neutral-200 font-secondary"
+    onClick= {() => window.location.href = "/about"}
             >
               About me
             </button>
-            <div className="w-16 sm:w-20 h-[1px] bg-neutral-400"></div>
+            <div className="w-16 sm:w-20 h-[1px] bg-neutral-400 hover:bg-neutral-800"></div>
           </div>
         </div>
       </div>
